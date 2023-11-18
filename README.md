@@ -2,11 +2,11 @@
 
 [![Deploy][heroku-shield]][heroku]
 
-Repository with required configurations to deploy [Shhh](https://github.com/smallwat3r/shhh) with Heroku on-click button.
+Repository with required configurations to deploy [Shhh](https://github.com/smallwat3r/shhh) with Heroku one-click button.
 
-Once deployed for the first time, you will need to initiate the database tables, which you can do with:
+Once deployed for the first time, you will need to initiate the database tables, which you can do by:
 
-1. Access a Flask shell
+1. Accessing a Flask shell
 
         heroku run --app=<heroku-app-name> python3 -m flask shell
 

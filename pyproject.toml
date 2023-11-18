@@ -1,0 +1,8 @@
+[project]
+# stub configs, needed as part of acquiring the Shhh source code
+# with setup.py
+name = "shhh"
+version = "1.0.0"
+
+[tool.setuptools]
+py-modules = []
